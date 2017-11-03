@@ -1,0 +1,357 @@
+.xqcon{
+    width: 100%;
+    height: auto;
+}
+.xqcon>main{
+    width: 620px;
+}
+h3{
+    margin-top: 54px;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: left;
+    color: #000;
+}
+.autorinfo{
+    height: 46px;
+    margin-top: 36px;
+    margin-bottom: 46px;
+}
+.photo{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+    float: left;
+}
+.photo>img{
+    width: 100%;
+    height: 100%;
+}
+.aucon{
+    width: 320px;
+    height: 100%;
+    float: left;
+    margin-left: 12px;
+    overflow: hidden;
+}
+.aucon>span{
+    font-size: 16px;
+    float: left;
+}
+.aucon>a{
+    font-family: "iconfont";
+    display: inline-block;
+    width: 52px;
+    height: 18px;
+    background: #42c02e;
+    border-radius: 9px;
+    font-size: 11px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+.aucon>div{
+    width: 100%;
+    margin-top: 24px;
+}
+.aucon>div>span{
+    font-size: 10px;
+    color: #969696;
+    line-height: 12px;
+    padding-right: 4px;
+}
+.conimg{
+    margin-bottom: 24px;
+    margin-left: -46px;
+}
+.wenzhang>p{
+    line-height: 30px;
+    color: #575957;
+    font-family: "苹方";
+    margin-bottom: 24px;
+    text-align: left;
+}
+.wenzhang>.title{
+    color: #2F2F2F;
+    font-weight: 600;
+}
+.wenzhang>div{
+    height: 20px;
+    margin-top: 20px;
+}
+.wenzhang>div>a{
+    font-family: 'iconfont';
+    font-size: 14px;
+    color: #9b9b9b;
+    float: left;
+}
+.wenzhang>div>a:nth-child(2){
+    margin-left: 320px;
+}
+.wenzhang>div>span{
+    font-size: 14px;
+    color: #9b9b9b;
+    float: right;
+}
+.zhongjie{
+    width: 100%;
+    height: 146px;
+    background: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+.zhongjietop{
+    width: 578px;
+    height: 87px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+}
+.zhongjietop>.photo,.zhongjietop>.aucon{
+    margin-top: 20px;
+}
+.zhongjietop>.aucon{
+    height: 50px;
+    width: 320px;
+}
+.zhongjietop>.aucon>div,.zhongjietop>.aucon>div>span{
+    width: 320px;
+}
+.zhongjietop>.aucon>div>span{
+    margin-left: -10px;
+}
+.zhongjietop>a{
+    width: 100px;
+    height: 40px;
+    background: #42c02e;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+    font-family: 'iconfont';
+    font-size: 15px;
+    color: #fff;
+    line-height: 42px;
+    margin-top: 20px;
+}
+.zhongjie>div:last-child{
+    font-size: 10px;
+    color: #969696;
+    line-height: 60px;
+    text-align: left;
+    margin-left: 20px;
+}
+.jieshuyu{
+    height: 74px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 74px;
+}
+.zhichi{
+    width: 100px;
+    height: 40px;
+    display: block;
+    background: #ea6f5a;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #fff;
+    line-height: 42px;
+}
+.tan>a:last-child{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    margin: 22px auto 32px;
+    overflow: hidden;
+}
+.tan>a>img{
+    width: 100%;
+    height: 100%;
+}
+.fenxiang{
+    height: 190px;
+    border-top: 1px solid #e0e0e0;
+}
+.like{
+    width: 188px;
+    height: 58px;
+    float: left;
+    border-radius: 29px;
+    margin-top: 30px;
+    border: 1px solid #eb7f6f;
+    font-size: 18px;
+    color: #eb7f6f;
+    line-height: 25px;
+    overflow: hidden;
+}
+.like>div:first-child{
+    width: 76px;
+    height: 25px;
+    border-right: 1px solid #eb7f6f;
+    font-family: 'iconfont';
+    float: left;
+    margin-top: 18px;
+    padding-left: 30px;
+}
+.like>div:last-child{
+    width: 48px;
+    height: 25px;
+    float: left;
+    margin-top: 18px;
+    padding-left: 18px;
+}
+.fenx{
+    width: 278px;
+    margin-top: 36px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.fenx>a{
+    width: 48px;
+    height: 48px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    font-family: 'iconfont';
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.fenx>a:first-child{
+    color: #00bb29;
+}
+.fenx>a:nth-child(2){
+    color: #e05244;
+}
+.fenx>a:nth-child(3){
+    color: #9b9b9b;
+}
+.fenx>a:last-child{
+    font-size: 14px;
+    color: #a1a3a1;
+    width: 92px;
+    border-radius: 24px;
+}
+.mypl{
+    height: 110px;
+    position: relative;
+}
+.mypl>img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mypl>textarea{
+    resize: none;
+    width: 560px;
+    height: 100px;
+    background: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    padding: 5px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 48px;
+}
+.pinglun>h4{
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.pltop{
+    height: 76px;
+}
+.pltop>a{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    margin-top: 22px;
+    overflow: hidden;
+    float: left;
+}
+.pltop>a>img{
+    width: 100%;
+    height: 100%;
+}
+.pltop>div{
+    width: 300px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 12px;
+}
+.pltop>div>a{
+    font-size: 14px;
+    line-height: 20px;
+}
+.pltop>div>p{
+    font-size: 10px;
+    color: #969696;
+    line-height: 18px;
+}
+.pinglun>p{
+    font-size: 16px;
+    color: #545d5a;
+    line-height: 24px;
+}
+.pinglun>div>span{
+    font-family: 'iconfont';
+    padding: 0 8px;
+    font-size: 16px;
+    color: #9d9d99;
+    line-height: 72px;
+}
+.pinglun>div>span:first-of-type{
+    padding-left: 0;
+}
+.huifu{
+    border-left: 2px solid #d9d9d9;
+    margin-bottom: 20px;
+}
+.huifu>li{
+    width: 596px;
+    height: 64px;
+    margin-left: 20px;
+    border-bottom: 1px dashed #f0f0f0;
+}
+.huifu>li>div{
+    padding-top: 12px;
+    height: 30px;
+    font-size: 12px;
+}
+.huifu>li>div>span{
+    float: left;
+    color: #5fa8d9;
+}
+.huifu>li>div>p{
+    font-size: 12px;
+    float: left;
+}
+.huifu>li>p{
+    font-family: 'iconfont';
+    font-size: 10px;
+    color: #969696;
+}
+.huifu>span{
+    display: block;
+    height: 40px;
+    font-size: 12px;
+    color: #969696;
+    line-height: 40px;
+    margin-left: 20px;
+    font-family: 'iconfont';
+}

@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+        <link rel="stylesheet" href="css/base.css">
+    <script src="js/validation/lib/jquery.js"></script>
+    <script src="js/validation/dist/jquery.validate.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        height: 100%;
+        background: url("img/login.jpg") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .login{
+        width: 350px;
+        height: 400px;
+        background: #fff;
+        position: absolute;
+        left:50%;
+        margin-left: -175px;
+        top: 50%;
+        margin-top: -200px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .top{
+        width: 100%;
+        height: 60px;
+        background: #e6e6e6;
+        font-size: 20px;
+        font-family: "苹方";
+        font-weight: bolder;
+        color: #555555;
+        text-align: center;
+        line-height: 60px;
+    }
+    form{
+        width: 280px;
+        height: auto;
+        margin: 0 auto;
+    }
+    form>div{
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: "苹方";
+        color: #000;
+        position: relative;
+    }
+    form>div:nth-child(2){
+        margin-top: 0;
+    }
+    form>div:nth-child(3){
+        margin-top: 0;
+        position: relative;
+    }
+    form .uname{
+        width: 190px;
+        height: 26px;
+        border-radius: 2px;
+        border: 1px solid #dddddd;
+        padding-left: 4px;
+        outline: none;
+    }
+    form .upass{
+        width: 190px;
+        height: 26px;
+        border-radius: 2px;
+        border: 1px solid #dddddd;
+        padding-left: 4px;
+        outline: none;
+    }
+    form .imgcode{
+        width: 90px;
+        height: 26px;
+        border-radius: 2px;
+        border: 1px solid #dddddd;
+        padding-left: 4px;
+        outline: none;
+    }
+    form>div>img{
+        position: absolute;
+        top: -1px;
+        right: 14px;
+        width: 80px;
+        height: 30px;
+    }
+    form>button{
+        width: 258px;
+        height: 30px;
+        background: #ff8300;
+        font-size: 16px;
+        font-family: "苹方";
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        margin-top: 10px;
+    }
+    .zc{
+        font-size: 12px;
+        font-family: "苹方";
+        color: #555555;
+        float: right;
+        margin-top: 16px;
+        margin-right: 60px;
+    }
+    .else{
+        width: 200px;
+        height: 20px;
+        font-size: 12px;
+        font-family: "苹方";
+        color: #555555;
+        margin-top: 60px;
+        margin-left: 30px;
+        margin-bottom: 6px;
+    }
+    .else1{
+        width: 200px;
+        height: 22px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 30px;
+    }
+    .login>div>a{
+        width: 24px;
+        height: 18px;
+        margin-top: 4px;
+        margin-right: 26px;
+        display: inline-block;
+    }
+    .login>div>a>img{
+        width: 20px;
+        height: 18px;
+    }
+    .login>div>div{
+        display: inline;
+        font-size: 12px;
+        font-family: "苹方";
+        color: #555555;
+        line-height: 22px;
+        position: absolute;
+        top: 2px;
+    }
+    .else1>div:nth-child(2){
+        left: 22px;
+    }
+    .else1>div:last-child{
+        left:76px;
+    }
+    .error{
+        width: 100%;
+        height: 26px;
+        font-size: 14px;
+        padding-left: 4px;
+    }
+</style>
+<body>
+<div class="login">
+    <div class="top">
+        会员登陆
+    </div>
+    <form action="homepage.html" method="post">
+        <div class="form-group">
+            用户名：
+            <input type="text" class="uname" id="exampleInputEmail1" placeholder="name" name="uname" autocomplete="off"><br>
+        </div>
+        <div class="form-group">
+            密&nbsp;&nbsp;&nbsp;码：
+            <input type="password" class="upass" id="exampleInputPassword1" placeholder="pass" name="upass"><br>
+        </div>
+        <div class="form-group">
+            验证码：
+            <input type="text" class="imgcode" name="imgcode" placeholder="请输入验证码">
+            <img src="img/yzm.png" alt="">
+        </div>
+        <button type="submit" class="btn btn-default">登陆</button>
+    </form>
+    <a href="zhuce.html" class="zc">立即注册</a>
+    <div class="else">
+        您还可以使用以下方式登陆：
+    </div>
+    <div class="else1">
+        <a href=""><img src="img/2017-10-16_155748_03.png" alt=""></a>
+        <div>微信</div>
+        <a href=""><img src="img/2017-10-16_155748_05.png" alt=""></a>
+        <div>QQ</div>
+    </div>
+</div>
+</body>
+<script>
+    $(function () {
+        $("form").validate({
+            rules:{
+                uname: {
+                    required: true,
+                    minlength:5
+                },
+                upass: {
+                    required: true,
+                    minlength:5
+                }
+
+            },
+            messages:{
+                uname: {
+                    required: "用户名不能为空",
+                    minlength: "用户名至少五个字符",
+                },
+                upass:{
+                    required: "密码不能为空",
+                    minlength: "密码至少五个字符"
+                }
+            }
+        })
+    })
+</script>
+</html>

@@ -1,0 +1,151 @@
+section>main{
+    width: 960px;
+}
+.qbtop{
+    margin-top: 44px;
+    height: 125px;
+}
+.qbtop>main>div{
+    width: 33.2%;
+    height: 100%;
+    border-right: 1px solid #f0f0f0;
+    float: left;
+}
+.qbtop>main>div:last-child{
+    border: none;
+}
+.qbtop1>a{
+    display: block;
+    width: 86px;
+    height: 86px;
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    float: left;
+    margin-top: 22px;
+}
+.qbtop1>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.qbtop1>div{
+    width: 50%;
+    height: 54px;
+    margin-top: 42px;
+    margin-left: 16px;
+    float: left;
+}
+.qbtop1>div>a{
+    font-size: 20px;
+    font-weight: 600;
+}
+.qbtop1>div>p{
+    font-size: 12px;
+    color: #9e9f9e;
+    margin-top: 4px;
+}
+.qbtop2>div{
+    width: 260px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 54px;
+}
+.qbtopt{
+    height: 46px;
+}
+.qbtopt>div{
+    font-size: 16px;
+    color: #9b9b9b;
+    margin-right: 20px;
+    float: left;
+}
+.qbtopt>span:first-of-type{
+    font-size: 20px;
+    margin-top: -4px;
+    float: left;
+}
+.qbtopt>span:last-of-type{
+    font-size: 16px;
+    margin-left: -2px;
+    float: left;
+}
+.qbtopb>div{
+    width: 66px;
+    height: 28px;
+    border-radius: 14px;
+    background: #42c12e;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+    cursor: pointer;
+}
+.qbtopb>div:last-of-type{
+    background: #fff;
+    border: 1px solid #42c12e;
+    color: #42c12e;
+    margin-left: 12px;
+}
+.qbtopb>span{
+    font-size: 12px;
+    color: #969796;
+    margin-left: 16px;
+    float: left;
+    margin-top: 6px;
+}
+.qbtop3>p,.qbtop3>a{
+    font-size: 14px;
+    color: #9e9f9e;
+    line-height: 18px;
+    margin-left: 44px;
+}
+.qbtop3>p:first-child{
+    margin-top: 24px;
+}
+.qbtop3>a{
+    display: block;
+    color: #569dd5;
+}
+section>main>ul{
+    margin-top: 54px;
+}
+.title{
+    height: 70px;
+    border: 1px solid #dcdcdc;
+    font-size: 14px;
+    line-height: 14px;
+}
+li{
+    height: 50px;
+    border-right: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 10px;
+    line-height: 14px;
+}
+li>div{
+    height: 14px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.title>div{
+    margin-top: 28px;
+    border-right: 1px dashed #c8c8c8;
+}
+li>div:first-child{
+    width: 120px;
+}
+li>div:nth-child(2){
+    width: 60px;
+}
+li>div:nth-child(3){
+    width: 354px;
+}
+li>div:nth-child(4){
+    width: 80px;
+}
+li>div:last-child{
+    border: none;
+}

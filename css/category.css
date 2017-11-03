@@ -1,0 +1,128 @@
+.imgtit{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+.imgtit>main>div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imgtit>main>div>img{
+    width: 100%;
+    height: 100%;
+}
+.imgtit>main>div>a{
+    display: block;
+    width: 196px;
+    height: 100%;
+    font-family: 'iconfont';
+    font-size: 18px;
+    color: #fff;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    right: 24px;
+}
+.tit{
+    width: 100%;
+    height: 50px;
+    margin-top: 24px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.tit>a{
+    font-family: 'iconfont';
+    font-size: 15px;
+    color: #969696;
+    line-height: 50px;
+    margin-right: 40px;
+}
+.logo{
+    font-size: 20px;
+}
+.catecon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catecon>div{
+    width: 300px;
+    height: 278px;
+    border: 1px solid #e6e6e6;
+    background: #f8f8f8;
+    border-radius: 4px;
+    margin-top: 80px;
+    position: relative;
+}
+.catecon>div>a{
+    display: block;
+    width: 100%;
+    height: 186px;
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+.catecon>div>a>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+}
+.catecon>div>a>h4{
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 90px;
+}
+.catecon>div>a>p{
+    width: 258px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #595b59;
+    line-height: 24px;
+    text-align: center;
+}
+.catecon>div>a:nth-child(2){
+    width: 100px;
+    height: 40px;
+    background: #42c02e;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 156px;
+    font-family: 'iconfont';
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+}
+.catecon>div>div{
+    width: 258px;
+    height: 60px;
+    border-top: 1px solid #e6e6e6;
+    position: absolute;
+    left: 50%;
+    margin-left: -129px;
+    bottom: 0;
+    font-size: 12px;
+    line-height: 60px;
+    text-align: center;
+}
+.catecon>div>div>a{
+    color: #595b59;
+}
+.catecon>a{
+    width: 368px;
+    height: 42px;
+    background: #a5a5a5;
+    border-radius: 21px;
+    margin: 38px auto 90px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+}

@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+main{
+	width: 944px;
+	height: 100%;
+	margin: 0 auto;
+}
+@font-face {
+	font-family: 'iconfont';  /* project id 449203 */
+	src: url('https://at.alicdn.com/t/font_449203_p36sltzhhwyd5cdi.eot');
+	src: url('https://at.alicdn.com/t/font_449203_p36sltzhhwyd5cdi.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_449203_p36sltzhhwyd5cdi.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_449203_p36sltzhhwyd5cdi.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_449203_p36sltzhhwyd5cdi.svg#iconfont') format('svg');
+}
+header{
+	width: 100%;
+	height: 56px;
+	position: relative;
+}
+header>div{
+	width: 100%;
+	height: 55px;
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 9999;
+}
+header>div>div:first-child{
+	width: 80px;
+	height: 100%;
+	margin-left: 20px;
+	float: left;
+	font-size: 26px;
+	color: #ea705b;
+	line-height: 55px;
+}
+header>div>div:nth-child(2){
+	width: 340px;
+	height: 100%;
+    display: flex;
+	justify-content: space-around;
+    margin-left: 212px;
+    float: left;
+}
+.headmain>div{
+	float: left;
+	overflow: hidden;
+}
+.headmain>a:first-child{
+	width: 34px;
+	height: 100%;
+	display: block;
+	font-size: 16px;
+	color: #ea705b;
+	line-height: 55px;
+}
+.headmain>a:nth-child(2){
+	width: 70px;
+	height: 100%;
+	display: block;
+	font-size: 16px;
+	color: #333333;
+	line-height: 55px;
+}
+.headmain>div:last-child{
+	width: 160px;
+	height: 38px;
+	margin-top: 9px;
+	background: #eeeeee;
+	border-radius: 19px;
+	position: relative;
+}
+input{
+	width: 100px;
+	height: 20px;
+	background: #eeeeee;
+	border: none;
+	outline: none;
+	margin-left: 12px;
+	padding:9px 0;
+	font-size: 12px;
+	line-height: 20px;
+	color: #a0a0a0;
+}
+.souso{
+	width: 34px;
+	height: 100%;
+	font-family: 'iconfont';
+	font-size: 20px;
+	color: #a9a9a9;
+	line-height: 38px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.headr{
+	width: 324px;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	top:0;
+	right: 12px;
+}
+.headr>a{
+	font-size: 14px;
+	color: #969696;
+	line-height: 55px;
+}
+.headr>a:nth-child(3){
+	width: 78px;
+	height: 36px;
+	display: block;
+	margin-top: 10px;
+	border:1px solid #ea6f5a;
+	border-radius: 18px;
+	color: #ea6f5a;
+	text-align: center;
+	line-height: 36px;
+}
+.headr>a:last-child{
+	width: 100px;
+	height: 40px;
+	display: block;
+	background: #ea6f5a;
+	margin-top: 8px;
+	border-radius: 20px;
+	font-family: 'iconfont';
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
