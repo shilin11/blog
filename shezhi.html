@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/heads.css">
-    <link rel="stylesheet" href="css/gouwuche.css">
+    <link rel="stylesheet" href="css/shezhi.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/homepage.js"></script>
 </head>
@@ -65,36 +65,69 @@
         </div>
     </div>
 </header>
-    <section>
-        <main>
-            <div class="mtop">
-                <div class="choose">全部商品<span> 2</span></div>
-                <div>优惠商品<span> 0</span></div>
+<section class="szCon">
+    <main>
+        <ul class="szleft">
+            <li class="lis">
+                <img src="img/shez_03.png" alt="">
+                <span>基础设置</span>
+            </li>
+            <li>
+                <img src="img/shez_06.png" alt="">
+                <span>个人资料</span>
+            </li>
+            <li>
+                <img src="img/shez_08.png" alt="">
+                <span>微博认证</span>
+            </li>
+            <li>
+                <img src="img/shez_10.png" alt="">
+                <span>黑名单</span>
+            </li>
+            <li>
+                <img src="img/shez_12.png" alt="">
+                <span>赞赏设置</span>
+            </li>
+        </ul>
+        <form class="szright">
+             <div class="stop">
+                 <img src="img/autor.jpg" alt="">
+                 <div>
+                     <a href="">更改头像</a>
+                     <input type="file" style="opacity: 0">
+                 </div>
+             </div>
+            <div class="nicheng">
+                <span>昵称</span>
+                <input type="text" value="nicheng">
             </div>
-            <div class="title">
-                <span>选择</span>
-                <span>商品名称</span>
-                <span>商品价格</span>
-                <span>商品状态</span>
-                <span>操作</span>
+            <div class="nicheng email">
+                <span>邮箱</span>
+                <input type="email" placeholder="请输入你的常用邮箱">
             </div>
-            <ul class="shangpin">
-                <li>
-                    <span><input type="checkbox"></span>
-                    <span>如何拉近人与人关系</span>
-                    <span>￥1.80</span>
-                    <span>未购买</span>
-                    <span>删除</span>
-                </li>
-                <li>
-                    <span><input type="checkbox"></span>
-                    <span>如何拉近人与人关系</span>
-                    <span>￥1.80</span>
-                    <span>未购买</span>
-                    <span>删除</span>
-                </li>
-            </ul>
-        </main>
-    </section>
+            <div class="nicheng shouji">
+                <span>手机</span>
+                <p>187****1111</p>
+                <span>已验证</span>
+            </div>
+            <div class="nicheng jieshou">
+                <span>提醒邮件通知</span>
+                <div>
+                    <input type="radio" name="dongtai">
+                    <span>所有动态</span>
+                </div>
+                <div>
+                    <input type="radio" name="dongtai">
+                    <span>每天未读通知</span>
+                </div>
+                <div>
+                    <input type="radio" name="dongtai">
+                    <span>不接收</span>
+                </div>
+            </div>
+            <input type="submit" value="保存">
+        </form>
+    </main>
+</section>
 </body>
 </html>
